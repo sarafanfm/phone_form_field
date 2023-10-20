@@ -123,15 +123,6 @@ class CountrySelectorState extends State<CountrySelector> {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        const SizedBox(height: 8),
-        Container(
-          width: 50,
-          height: 4,
-          decoration: BoxDecoration(
-            color: Theme.of(context).colorScheme.secondary,
-            borderRadius: BorderRadius.circular(8),
-          ),
-        ),
         SizedBox(
           height: 70,
           width: double.infinity,
